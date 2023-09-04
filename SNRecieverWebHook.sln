@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SNRecieverWebHook", "SNRecieverWebHook\SNRecieverWebHook.csproj", "{4B56E4AB-B591-49E6-8654-05AD13E59849}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusSender", "ServiceBusSender\ServiceBusSender.csproj", "{6FFD52B9-488F-42FB-9953-D97631F08B7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B56E4AB-B591-49E6-8654-05AD13E59849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B56E4AB-B591-49E6-8654-05AD13E59849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B56E4AB-B591-49E6-8654-05AD13E59849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B56E4AB-B591-49E6-8654-05AD13E59849}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FFD52B9-488F-42FB-9953-D97631F08B7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FFD52B9-488F-42FB-9953-D97631F08B7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FFD52B9-488F-42FB-9953-D97631F08B7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FFD52B9-488F-42FB-9953-D97631F08B7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C904028-5497-4AD3-80F2-0A798D4ADB40}
+	EndGlobalSection
+EndGlobal
